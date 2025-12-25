@@ -1,0 +1,52 @@
+Module 5: Lists & Tables
+<ul>	unordered list. it represent list is unorderes
+<li>	li is list or no of items.
+
+snippet		tagname*how many tags want
+
+Ordered list
+<ol>	It represent numbering or alphabet or I II III IV Roman Numbers
+<li>
+Bydefault its number
+Attributes
+	type=<type of character>
+	start=<starting number or character>
+ABCDE
+
+Description List
+<dl>	Description list
+<dt>	Description term
+<dd>	Description
+
+
+Nested List
+
+Tables:
+<table>			Table Start
+	<tr>		Table Row
+	<th>		Table Heading
+	<td>		Table Data	<you can visualize like> column
+	
+snippet
+	tr*4>td*4
+border="1"
+
+
+<caption >		It represent btable heading
+
+
+it is a attributes
+rowspan
+colspan
+
+
+rowspna is used for row merging
+colspan is used column mergin
+
+Git Hub Link 
+https://github.com/OMKAR9395/HTMLBatch02
+
+
+
+
+
