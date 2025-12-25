@@ -1,0 +1,71 @@
+Module 3
+Heading
+h1	to h6
+
+h1 to h3	Seo(Search engine optimization)
+h4 to h6	normal tags
+
+Paragraphs <p>
+In paragraph tag cannot space between text
+
+but we can use <pre> tag
+
+<br>	It is used Line Breaking
+It cannot have ending tag </>
+<hr>	It will be same as <be> but it produces horizontal line
+
+Formatting tags:
+o <b>, <strong>, <i>, <em>
+o <u>, <mark>, <small>
+o <del>, <sup>, <sub>
+
+<b>	Stands for Bold
+<strong>	It is very helpfull for seo
+<i>			It stands for Italic
+<em>	Emphasis 	Its screen reader special importance .
+<u>		It stands for underline
+<mark>	It is used for importance and highlighted text color yellow.
+<small>	it is used for copyrights footer
+<del>	It used like discounts
+<sup>	It is used  like Power,Degree
+<sub>	It is used for Chemical formulas , mathematics formulas
+
+
+-------------Module 4
+Path 	=> location
+../			is defines parent folder
+../../		super parent
+
+
+ Anchor tag <a>
+• Absolute vs Relative paths
+• Image tag <img>
+• src, alt, width, height
+• Image as a link
+
+<a> anchor tag Used for navigating one page to another page , 
+URL,Navigate gmail,Path for Images
+	<a	When here conetet declared as call it property>
+Property:	href:	hypertext reference
+1. It is Used for Navigating pages
+2. It is Used for Navigating Urls
+3.It is Used for Navigating Html Pages
+4. It is Used for Navigating gmail
+5.Phone 
+6.File Download
+Property: target			_self,_blank,__parent,_top
+			target="value"
+
+Img Tag
+<img>	it cannot cliosing tag
+we require src property and alt property 
+properties
+	src stands for source 
+	alt alternative
+	width 
+	height
+	title	it works on hover
+	loading	<lazy loading>
+
+	
+	

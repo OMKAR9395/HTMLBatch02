@@ -1,0 +1,97 @@
+MOdule 1 
+
+What is the Web?
+World Wide Web 
+Browser	Chrome ,IE,Safari,Microsoft Edge
+
+Everithing you can see in the browser that are called web using your  internet.
+
+
+Website vs Web Application
+Website is without databse 
+and web application is stored some values or user data is called website
+
+Frontend vs Backend
+
+Role of HTML, CSS, Bootstrap
+
+HTML 
+	Heading
+	Paragraph
+	Input
+	Button
+
+CSS
+	Color
+	Bachground color
+	font size
+
+Bootstrap
+	Bootstrap is a framework
+	Build for responsive pages
+
+How browsers work
+1.User Url Hits 
+2.Browser Sending request to server
+3.Server Html css javascript
+4.Browser reads the returned data
+5.Html Apply to structure
+6.Css Apply
+7.Javascript
+8.Final Page Execute
+
+Module 2
+
+HTML introduction & versions
+
+HTML Stands for Hypertext markup language
+Web Structure
+
+Text
+Images/Videos
+Forms
+Links
+
+Browser reads html tags and render pages
+
+
+Versions
+
+HTML 1.0		1991		Basic Tags
+HTMl 2.0		1995		Standardization
+HTML 3.0		1997		Tables , Forms
+HTML 4.0		2000		strict Syntax
+HTML 5.0		2014		MOdern Web
+
+HTML5
+
+Mobile Support
+audio/video suppport
+semantic tags
+Less Plugins
+
+
+HTML document structure
+• <!DOCTYPE>, <html>, <head>, <body>
+• <title>, <meta> tags
+• HTML comments
+
+
+In html everything is a element or tag
+
+head tag cannot shoe in ui it is hidden
+
+<!DOCTYPE html>  	=> It shows type of document
+<html lang="en">	=> it shows language used english
+<meta charset="UTF-8"> it shows all language support and emojis
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+It shows responsive Ui any device like kobile ot tablet or laptop
+ <title>Document</title>	=> it show brwser title
+
+
+<body>  => it is actual ui developed by developer
+
+
+
+When we add extention Live server it works only .html files.
+
