@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR</title>
+</head>
+<body>
+    <h2>Product Order  Form</h2>
+    <form action="">
+        <label for="">Customer Name</label>
+        <input type="text" name="" id="" required>
+
+    <br><br>
+    <label for="">Mobile Number</label>
+    <!-- <input type="number" required> -->
+    <input type="text" required pattern="[0-9]{10}" title="Please Enter Valid Number">
+
+    <br><br>
+    <label for="">Product</label>
+    <select name="" id="" required>
+
+        <option value="">--Select Product--</option>
+        <option value="">Laptop</option>
+        <option value="">Mouse</option>
+        <option value="">Keyboard</option>
+        <option value="">Earphones</option>
+
+    </select>
+    <br><br>
+
+    <label for="">Quantity</label>
+    <input type="number" minlength="1" maxlength="5" required>
+
+    <br><br>
+    <label for="">Payment Mode</label>
+    
+    <input type="radio" name="Payment">Cash
+    <input type="radio" name="Payment">Online
+    <br>
+    <br>
+    <input type="submit" name="" id="" value="Place Order">
+    <!-- <button>Submit</button> -->
+    </form>
+</body>
+</html>

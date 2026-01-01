@@ -1,0 +1,35 @@
+Module 6: HTML Forms
+• <form> tag
+• Input types
+Form is used for => Registration,Login,Feedback,Admission,Contact
+
+<form>
+	//content	
+</form>
+
+attributes	action,method(get,post),target
+get=> data without hidden
+post => data hidden
+
+input	=> data enter
+label	=> static content
+
+input attribute		=> type=""	placeholder=""
+name=>			sending data which variable 
+
+http
+https
+hypertext transfer protocol secure
+checkbox
+
+select
+option
+selected attribute bydefault select
+
+button 
+type	submit/reset/
+
+
+
+
+
