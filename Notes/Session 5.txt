@@ -1,0 +1,23 @@
+Validations in forms
+
+required
+minlength	its used number of minimum characters 
+maxlength	its used for maximum numbers of characters
+pattern 	it is advance concept 
+pattern="regx"
+input box validations numbers , characters ,email validations,aadhar cardvalidations,pancard validation
+[<its represent for digits or characters>]{<number of characters exact characters>}
+
+Types of pattern
+[0-9]	Only Numbers
+[A-Z]	Only Capital
+[a-z]	only small
+
+{n}	Exactly n times
+{n,m}	n for minimum and m for maximum
+
++	one or more
+*	Zero or more
+^	Start
+$	End
+,	0 values represent without entering after <,>
