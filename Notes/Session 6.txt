@@ -1,0 +1,20 @@
+ShortCur Key For Opening File Manager in pc	=>	<Windows + e>
+			For Commenting vs code	<ctrl + />
+
+Module 7: SemanƟc HTML & Media
+ SemanƟc tags:
+ <header>, <footer>, <nav>
+ <secƟon>, <arƟcle>, <main>
+ Audio & Video tags
+ <iframe>
+ SEO & accessibility basics 
+
+Sematic tags	<header>,<footer>,<nav>,<section>,<article>,<main>\
+non semantic tags	<div>,<span>
+
+span tag when adding multiple spaces only apply single space
+
+audio			control attribute required for displaying audio
+video				
+iframe			width,height,title,loading,allow,allowfullscreen
+
