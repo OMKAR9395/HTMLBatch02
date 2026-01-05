@@ -2,18 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-input[type="file"]::file-selector-button {
-    background-color: green;
-    color: white;
-}
+    <title>Advanced CSS Pseudo Demo</title>
 
+    <style>
+        /* ========== BASE STYLES USING :is() ========== */
+        :is(h1, h2, h3) {
+            color: navy;
+            font-family: Arial, sans-serif;
+        }
+
+        /* ========== ZERO PRIORITY BASE USING :where() ========== */
+        :where(section p) {
+            margin: 5px 0;
+        }
+
+        /* ========== CARD LOGIC USING :has() ========== */
+        .card:has(.error) {
+            border: 2px solid red;
+        }
+
+        /* ========== STRUCTURE-BASED ========== */
+        li:first-of-type {
+            font-weight: bold;
+        }
+
+        li:nth-of-type(2) {
+            color: green;
+        }
+
+        li:only-child {
+            color: purple;
+        }
+
+        /* ========== FORM STATES ========== */
+        input:focus {
+            border: 2px solid blue;
+        }
+
+        input:valid {
+            border-color: green;
+        }
+
+        input:invalid {
+            border-color: red;
+        }
+
+        input:placeholder-shown {
+            background-color: #fff3cd;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* ========== EMPTY CONTENT HANDLING ========== */
+        .message:empty {
+            display: none;
+        }
+
+        /* ========== PSEUDO ELEMENTS ========== */
+        .note::before {
+            content: "ℹ ";
+            color: blue;
+        }
+
+        .success::after {
+            content: " ✔";
+            color: green;
+        }
+
+        li::marker {
+            color: red;
+        }
+
+        input[type="file"]::file-selector-button {
+            background-color: green;
+            color: white;
+        }
     </style>
 </head>
+
 <body>
-<input type="file">
+
+<h1>Advanced CSS Pseudo Example</h1>
+
+<!-- ===== SECTION: CARD AREA ===== -->
+<section>
+    <h2>Cards Section</h2>
+
+    <div class="card">
+        <p class="note">Normal card without error</p>
+    </div>
+
+    <div class="card">
+        <p class="error">Error: Invalid data</p>
+    </div>
+</section>
+
+<hr>
+
+<!-- ===== SECTION: LIST ===== -->
+<section>
+    <h2>Course List</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<hr>
+
+<!-- ===== SECTION: FORM ===== -->
+<section>
+    <h2>Registration Form</h2>
+
+    <form>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file">
+        <br><br>
+
+        <button disabled>Submit</button>
+    </form>
+
+    <p class="message"></p>
+    <p class="success">Form looks good</p>
+</section>
 
 </body>
 </html>
